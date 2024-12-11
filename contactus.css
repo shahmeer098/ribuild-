@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+    .section-pro-contact-us{
+    width: 100%;
+    background-image: url(../pics/pro-sec.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 600px;
+    }
+    .overlay-pro-contact-us{
+    width: 100%;
+    background-color: rgb(16 16 16 / 64%);
+    height: 600px;
+    
+    
+    }
+    .div-pro-contact-us{
+    
+        width: 30%;
+        height: 310px;
+        margin: auto;
+        padding-top: 290px;
+    
+    
+    }
+    .h1-pro-contact-us{
+    
+        color: white;
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    
+    .li-pro-contact-us{
+    
+        background-color: rgb(231, 76, 43);
+        padding: 12px;
+        width: 40%;
+        margin: auto;
+        font-size: 16px;
+        color: white;
+        border-radius: 6px;
+        font-family: helvetica;
+        font-weight: bold;
+    }
+    .fa-solid, .fas {
+        font-weight: 600;
+        font-size: 15px;
+        margin-right: 6px;
+    }
+    .li-home-contact-us{
+    
+        list-style-type: none;
+         margin-left: 5px;
+    }
+    .li-project-contact-us{
+    
+    margin-left: 25px;
+    text-decoration: underline;
+    }
+    .li-project-contact-us:active{
+    
+    text-decoration: underline;
+    
+    }
+    
+    li a{
+    
+        text-decoration: none;
+        color: white;
+    
+    }
+    a:hover{
+    text-decoration: underline;
+    
+    }
+
+
+
+
+    
+    .section-icon-contactus{
+
+        width: 100%;
+        height: 450px;
+        display: flex;
+        padding-top: 120px;
+    }
+    .icon-gdiv{
+
+width: 100%;
+height: 450px;
+display: flex;
+
+    }
+    .icon-sub-div{
+
+        width: 25%;
+        height: 320px;
+        border: 1px solid#bdbdbd;
+        margin-left: 150px;
+     
+        border-radius: 10px;
+
+    }
+    .icon-sub-div1{
+
+        width: 25%;
+        height: 320px;
+        border: 1px solid #bdbdbd;
+        margin-left: 35px;
+        border-radius: 10px;
+
+    }
+    .icon-sub-div2{
+
+        width: 25%;
+        height: 320px;
+        border: 1px solid #bdbdbd;
+        margin-left: 35px;
+        border-radius: 10px;
+
+    }
+    .icon-contact-us{
+
+        padding-left: 165px;
+        padding-top: 50px;
+
+    }
+
+
+.icon-contact-us i{
+
+font-size: 80px;
+color: rgb(231, 76, 43);;
+
+    }
+    .icon-div-h2{
+
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-left: 100px;
+        padding-top: 30px;
+    }
+
+    .icon-link-con{
+        width: 300px;
+        text-align: center;
+        color: silver;
+        font-size: 19px;
+        padding-left: 50px;
+        padding-top: 20px;
+        line-height: 25px;
+
+        
+    }
+    .icon-link-con a{
+
+        text-decoration: none;
+        color: #6e6e6e;
+    }
+    .icon-link-con a:hover{
+
+        color: rgb(231, 76, 43) ;
+    }
+
+    .section-map{
+
+        width: 100%;
+        height: 550px;
+    }
+    .map-div{
+
+        width: 100%;
+        height: 550px;
+
+    }
+    
+    .section-form{
+
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+ 
+    }
+
+    .main-div-form{
+
+        width: 100%;
+        height: 500px;
+        display: flex;
+
+    }
+.main-button a{
+ text-decoration: none ;
+ color: white;
+
+}
+    .div-sub-form{
+
+        width: 33%;
+        height: 500px;
+       
+        margin-left: 160px;
+    }
+    .div-form-h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 67px;
+
+    }
+    .div-main-get-touch{
+       
+        width: 43%;
+        margin-left: 40px;
+        height: 500px;
+
+
+    }
+    .div-sub-get-touch{
+
+        
+        width: 100%;
+     
+        height: 500px;
+
+    }
+    .get-touch-h3{
+        font-size: 35px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 100;
+
+
+    }
+    .name-input{
+
+        border-bottom: 1px solid black;
+margin-top: 30px;
+    }
+    .name-input input{
+
+        padding-bottom: 12px;
+        padding-top: 18px;
+        width: 100%;
+        padding-right: 20px;
+        box-sizing: border-box;
+        color: #6A6A6A;
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 0px;
+        background-color: transparent;
+        resize: none;
+        border: 0;
+        outline: 0;
+        font-family: sans-serif;
+
+    }
+    .div-email-subject{
+
+        display: flex;
+        margin-top: 30px;
+    }
+    .sub-email{
+        width: 47%;
+        border-bottom: 1px solid;
+
+
+    }
+    .sub-sub{
+        width: 48%;
+        border-bottom: 1px solid;
+        margin-left: 35px;
+
+    }
+    .sub-email input{
+
+        padding-bottom: 12px;
+        padding-top: 18px;
+        width: 100%;
+        padding-right: 20px;
+        box-sizing: border-box;
+        color: #6A6A6A;
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 0px;
+        background-color: transparent;
+        resize: none;
+        border: 0;
+        outline: 0;
+        font-family: sans-serif;
+
+    }
+
+    .sub-sub input{
+        padding-bottom: 12px;
+        padding-top: 18px;
+        width: 100%;
+        padding-right: 20px;
+        box-sizing: border-box;
+        color: #6A6A6A;
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 0px;
+        background-color: transparent;
+        resize: none;
+        border: 0;
+        outline: 0;
+        font-family: sans-serif;
+
+    }
+    .message{
+        border-bottom: 1px solid black;
+        margin-top: 30px;
+
+    }
+    .message textarea{
+
+
+
+        padding-top: 18px;
+        width: 100%;
+        padding-right: 20px;
+        box-sizing: border-box;
+        color: #6A6A6A;
+        font-size: 14px;
+        line-height: 15px;
+        padding-left: 0px;
+        background-color: transparent;
+        resize: none;
+        border: 0;
+        outline: 0;
+        font-family: sans-serif;  
+    }
+    .button-transform{
+
+margin-top: 40px;
+
+    }
+    .main-button{
+
+        padding: 20px 35px;
+        color: white;
+        background: rgb(231, 76, 43);
+        border: 0;
+        outline: 0;
+        font-size: 16px;
+    
+        font-family: roboto;
+        font-weight: 900;
+        border-radius: 5px;
+
+    }
+    body > section.section-form > div > div.div-main-get-touch > div > div.div-email-subject > div.sub-sub > select{
+
+        
+        
+        width: 100%;
+    
+       box-sizing: border-box; 
+        color: #6A6A6A;
+        font-size: 14px;
+        line-height: 15px;
+        
+        background-color: transparent;
+        resize: none;
+        border: 0;
+        outline: 0;
+        font-family: sans-serif;
+        margin-top: 20px;
+        padding-bottom: 20px;
+
+
+    }
+
+   
+
+    option{
+
+
+        background-color: red;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    
+        }

@@ -1,0 +1,318 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+.section-pro{
+width: 100%;
+background-image: url(../pics/pro-sec.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+text-align: center;
+height: 600px;
+}
+.overlay-pro{
+width: 100%;
+background-color: rgb(16 16 16 / 64%);
+height: 600px;
+
+
+}
+.div-pro{
+
+    width: 30%;
+    height: 310px;
+    margin: auto;
+    padding-top: 290px;
+
+
+}
+.h1-pro{
+
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.li-pro{
+
+    background-color: rgb(231, 76, 43);
+    padding: 12px;
+    width: 42%;
+    margin: auto;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+.fa-solid, .fas {
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 6px;
+}
+.li-home{
+
+    list-style-type: none;
+     margin-left: 6px;
+}
+.li-project{
+
+margin-left: 25px;
+text-decoration: underline;
+}
+.li-project:active{
+
+text-decoration: underline;
+
+}
+
+li a{
+
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+text-decoration: underline;
+
+}
+
+.section-pro-1{
+width: 100%;
+height: 50px;
+margin-top: 120px;
+
+
+}
+.div-se-pro1{
+
+
+    
+    width: 100%;
+    height: 50px;
+    position: relative;
+
+}
+
+.div-se-pro2{
+
+
+    
+    width: 50%;
+    height: 31px;
+    margin-left: 200px;
+    padding-top: 18px;
+    padding-left: 280px;
+
+}
+.button-pro{
+
+    padding: 8px 15px;
+    font-size: 16px;
+    background: transparent;
+    border: 0;
+    margin-right: 30px;
+    font-weight: normal;
+
+}
+.button-pro:active{
+background-color:rgb(231, 76, 43) ;
+border-radius: 4px;
+color:white;
+font-weight: 600;
+}
+
+
+.section-pro-2{
+width: 100%;
+display: flex;
+height: 490px;
+
+}
+.div-pro1{
+width: 100%;
+height: 490px;
+display: flex;
+padding-top: 40px;
+padding-left: 150px;
+
+
+}
+
+
+.div-sub-pro2{
+   
+    width: 26%;
+    margin-left: 35px;
+    border-radius: 10px;
+    height: 430px;
+
+  
+}
+
+.div-sub-pro3{
+
+    width: 26%;
+    margin-left: 35px;
+    border-radius: 10px;
+    height: 430px;
+    
+
+}
+.img-sub-pro{
+
+    width: 100%;
+    height: 430px;
+    border-radius: 10px;
+}
+
+
+.div-pro-gr img{
+
+    display: block;
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+.div-pro-gr:hover img{
+transform: scale(1.1);
+
+
+}
+
+.div-pro-gr{
+    width: 28%;
+    height: 430px;
+    margin-right: 30px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow-button-pro{
+    background-color: white;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 110px;
+    left: 170px;
+    border-radius: 100px;
+    z-index: 2;
+
+
+}
+
+.arrow-button-pro:hover i{
+color: white;
+
+
+}
+
+.arrow-button-pro a{
+
+    color:black;
+}
+.arrow-button-pro i{
+
+margin-top: 28px;
+margin-left: 28px;
+font-size: 32px;
+transform: rotate(320deg)
+
+
+
+}
+.arrow-button-pro:hover{
+    background-color:rgb(231, 76, 43);
+    
+
+
+}
+.arrow-button-pro i:hover{
+color: white;
+
+
+}
+.div-detial-pro{
+
+    width: 100%;
+    height: 110px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 30px;
+    font-family:  'Helvetica';
+z-index: 2;
+}
+
+
+.pro-h2{
+
+    color: white;
+     line-height: 45px;
+}
+.pro-h2:hover{
+
+    color: rgb(231, 76, 43) ;
+
+
+}
+
+.bg-overlay-pro{
+
+    width: 100%;
+    height: 430px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+.bg-overlay-pro:hover{
+
+opacity: 1;
+
+}
+.trans-pro{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgb(16 16 16 / 64%);
+    opacity: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s ease;
+
+
+}
+
+
+.div-pro-gr:hover .trans-pro{
+
+height: 80%;
+opacity: 1;
+overflow: hidden;
+border-radius: 10px;
+
+} 
+
+.section-pro-3{
+    width: 100%;
+    display: flex;
+    height: 490px;
+    
+    }
+    .section-pro-4{
+        width: 100%;
+        display: flex;
+        height: 490px;
+        
+        }
